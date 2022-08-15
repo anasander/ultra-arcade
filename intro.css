@@ -3,20 +3,80 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+  box-shadow: inset 0 -240px #fdcb0c;
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 
 .intro-desc {
-  padding-top: 120px;
-  padding-bottom: 80px;
+  margin-bottom: 80px;
   letter-spacing: 0.05rem;
 }
 
 .intro-desc-1 {
-  padding-left: 80px;
-  padding-top: 40px;
-  padding-bottom: 40px;
+  margin-left: 80px;
+  margin-top: 40px;
+  margin-bottom: 40px;
 }
 
 .intro-desc-2 {
-  padding-left: 160px;
+  margin-left: 160px;
+  margin-bottom: 110px;
+}
+
+.intro {
+  display: flex;
+}
+
+.intro img {
+  width: 350px;
+}
+
+.intro-img-1 {
+  margin-right: 40px;
+  height: 506px;
+}
+
+.intro-img-2 {
+  height: 746px;
+  box-shadow: 20px 20px 0px #121212;
+}
+
+.intro-titulo {
+  text-align: center;
+  margin-right: 80px;
+}
+
+.ultra {
+  margin-top: 230px;
+  margin-bottom: -70px;
+}
+
+.arcade {
+  text-shadow: 8px 0 #3c1a02, -8px 0 #3c1a02, 0 8px #3c1a02, 0 -8px #3c1a02,
+    8px 8px #3c1a02, -8px -8px #3c1a02, 8px -8px #3c1a02, -8px 8px #3c1a02;
+}
+
+.subtitulo {
+  margin-top: -32px;
+}
+
+@media (max-width: 800px) {
+  .intro-bg {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+  .intro-desc {
+    margin-bottom: 40px;
+    letter-spacing: 0.05rem;
+  }
+  .intro-desc-1 {
+    margin-left: 0px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+  .intro-desc-2 {
+    margin-left: 0px;
+    margin-bottom: 60px;
+  }
 }

@@ -1,8 +1,8 @@
 /* FONTE */
 
-.cev-200 {
+.cev-150 {
   font-family: "Ceviche One";
-  font-size: 200px;
+  font-size: 150px;
 }
 
 .cev-128 {
@@ -10,9 +10,9 @@
   font-size: 128px;
 }
 
-.poppins-700-100 {
+.poppins-700-80 {
   font-family: "Poppins";
-  font-size: 100px;
+  font-size: 80px;
   font-weight: 700;
 }
 
@@ -41,9 +41,9 @@
   font-weight: 600;
 }
 
-.poppins-600-32 {
+.poppins-600-28 {
   font-family: "Poppins";
-  font-size: 32px;
+  font-size: 28px;
   font-weight: 600;
 }
 
