@@ -1,0 +1,99 @@
+/* FONTE */
+
+.cev-200 {
+  font-family: "Ceviche One";
+  font-size: 200px;
+}
+
+.cev-128 {
+  font-family: "Ceviche One";
+  font-size: 128px;
+}
+
+.poppins-700-100 {
+  font-family: "Poppins";
+  font-size: 100px;
+  font-weight: 700;
+}
+
+.poppins-700-80 {
+  font-family: "Poppins";
+  font-size: 80px;
+  font-weight: 700;
+}
+
+.poppins-700-60 {
+  font-family: "Poppins";
+  font-size: 60px;
+  font-weight: 700;
+  line-height: 50px;
+}
+
+.poppins-600-60 {
+  font-family: "Poppins";
+  font-size: 60px;
+  font-weight: 600;
+}
+
+.poppins-600-40 {
+  font-family: "Poppins";
+  font-size: 40px;
+  font-weight: 600;
+}
+
+.poppins-600-32 {
+  font-family: "Poppins";
+  font-size: 32px;
+  font-weight: 600;
+}
+
+.poppins-500-40 {
+  font-family: "Poppins";
+  font-size: 40px;
+  font-weight: 500;
+}
+
+.poppins-500-32 {
+  font-family: "Poppins";
+  font-size: 32px;
+  font-weight: 500;
+}
+
+.poppins-400-40 {
+  font-family: "Poppins";
+  font-size: 40px;
+  font-weight: 400;
+}
+
+.poppins-400-32 {
+  font-family: "Poppins";
+  font-size: 32px;
+  font-weight: 400;
+}
+
+.poppins-400-20 {
+  font-family: "Poppins";
+  font-size: 20px;
+  font-weight: 400;
+}
+
+@media (max-width: 1080px) {
+  .poppins-700-60 {
+    font-size: 40px;
+  }
+  .poppins-500-32 {
+    font-size: 24px;
+  }
+  .poppins-400-20 {
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 550px) {
+  .poppins-500-32 {
+    font-size: 20px;
+  }
+  .poppins-400-20 {
+    font-size: 12px;
+  }
+}

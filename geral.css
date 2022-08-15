@@ -1,0 +1,33 @@
+body {
+  background-color: #fdcb0c;
+  margin: 0px;
+  padding: 0px;
+}
+
+.container {
+  box-sizing: border-box;
+  max-width: 1400px;
+  padding-left: 32px;
+  padding-right: 32px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+ul,
+li,
+a {
+  color: inherit;
+  text-decoration: none;
+  list-style: none;
+}
+
+img,
+ul,
+li,
+p,
+h1,
+h2,
+h3 {
+  margin: 0px;
+  padding: 0px;
+}
