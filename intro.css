@@ -91,7 +91,7 @@
   }
 }
 
-@media (max-width: 800px) {
+@media (max-width: 900px) {
   .intro-desc {
     margin-bottom: 40px;
     letter-spacing: 0.05rem;
@@ -107,5 +107,11 @@
   }
   .intro-img {
     gap: 20px;
+  }
+}
+
+@media (max-width: 719px) {
+  .intro-img-1 {
+    display: none;
   }
 }

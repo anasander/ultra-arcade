@@ -89,6 +89,12 @@
   }
 }
 
+@media (max-width: 1000px) {
+  .cev-128 {
+    font-size: 80px;
+  }
+}
+
 @media (max-width: 600px) {
   .poppins-500-32 {
     font-size: 20px;
