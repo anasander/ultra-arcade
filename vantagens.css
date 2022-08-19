@@ -1,0 +1,74 @@
+.vantagens {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+  gap: 20px;
+  padding-top: 100px;
+  padding-bottom: 120px;
+}
+
+.vantagens-item-bg {
+  background-color: #fff1b9;
+  width: 460px;
+  height: 280px;
+}
+
+.vantagens-item {
+  margin: 10px 20px;
+  padding-left: 40px;
+  padding-right: 20px;
+}
+
+.vantagens-item h2 {
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.vantagens-item h2::before {
+  content: "";
+  display: block;
+  width: 20px;
+  height: 220px;
+  background-color: #3c1a02;
+  position: absolute;
+  left: -60px;
+  top: 20px;
+}
+
+@media (max-width: 1080px) {
+  .vantagens-item-bg {
+    width: 350px;
+    height: 250px;
+  }
+  .vantagens-item {
+    margin: 10px;
+    padding-left: 40px;
+  }
+  .vantagens-item h2 {
+    margin-top: 20px;
+    margin-bottom: 12px;
+  }
+  .vantagens-item h2::before {
+    left: -50px;
+    top: -5px;
+  }
+}
+
+@media (max-width: 1000px) {
+  .vantagens {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+}
+
+@media (max-width: 750px) {
+  .vantagens-item-bg {
+    width: 420px;
+    height: 200px;
+  }
+  .vantagens-item h2::before {
+    height: 200px;
+    top: -20px;
+  }
+}
