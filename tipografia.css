@@ -65,9 +65,9 @@
   font-weight: 400;
 }
 
-.poppins-400-32 {
+.poppins-400-30 {
   font-family: "Poppins";
-  font-size: 32px;
+  font-size: 30px;
   font-weight: 400;
 }
 
@@ -81,7 +81,16 @@
   .poppins-700-60 {
     font-size: 40px;
   }
+  .poppins-700-80 {
+    font-size: 60px;
+  }
+  .poppins-600-60 {
+    font-size: 40px;
+  }
   .poppins-500-32 {
+    font-size: 24px;
+  }
+  .poppins-400-30 {
     font-size: 24px;
   }
   .poppins-400-20 {

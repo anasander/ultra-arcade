@@ -24,47 +24,118 @@
 
 .passes-desc {
   display: flex;
+  flex-wrap: wrap;
   gap: 20px;
   justify-content: center;
   align-items: flex-end;
 }
 
 .passes-desc-bg {
-  width: 350px;
+  width: 400px;
   height: 700px;
   background-color: #ad4d08;
   border: solid 12px #3c1a02;
 }
 
 .passes-desc-bg-2 {
-  width: 350px;
+  width: 400px;
   height: 800px;
   background-color: #666666;
   border: solid 12px #3c1a02;
 }
 
 .passes-desc-bg-3 {
-  width: 350px;
+  width: 400px;
   height: 900px;
   background-color: #fdcb0c;
   border: solid 12px #3c1a02;
 }
 
-/* @media (max-width: 1200px) {
-  .passes-desc {
-    display: block;
-    gap: 20px;
-    align-items: center;
-  }
+.passes-desc-total {
+  margin: 30px;
+  text-align: center;
+}
+
+.preco {
+  border: solid 4px #de762a;
+  border-left: none;
+  border-right: none;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.preco-2 {
+  border: solid 4px #999999;
+  border-left: none;
+  border-right: none;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.preco-3 {
+  border: solid 4px #fff852;
+  border-left: none;
+  border-right: none;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.passes-lista {
+  text-align: start;
+  margin: 20px;
+  margin-left: 40px;
+}
+
+.passes-lista li {
+  margin-top: 20px;
+}
+
+.lista-detalhe {
+  position: relative;
+}
+
+.lista-detalhe::before {
+  content: "";
+  display: flex;
+  width: 15px;
+  height: 15px;
+  background-color: #fff1b9;
+  border-radius: 50%;
+  position: absolute;
+  top: 15px;
+  left: -30px;
+}
+
+@media (max-width: 1080px) {
   .passes-desc-bg,
   .passes-desc-bg-2,
   .passes-desc-bg-3 {
-    max-width: 1000px;
-    max-height: 400px;
-    justify-content: center;
-    align-items: center;
+    width: 300px;
   }
-} */
+  .passes-desc-bg {
+    height: 600px;
+  }
+
+  .passes-desc-bg-2 {
+    height: 700px;
+  }
+
+  .passes-desc-bg-3 {
+    height: 840px;
+  }
+}
 
 @media (max-width: 1000px) {
   #passes {
