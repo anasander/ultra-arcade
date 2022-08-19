@@ -73,6 +73,9 @@
 }
 
 @media (max-width: 1000px) {
+  #sobre {
+    margin-bottom: 80px;
+  }
   .sobre-titulo-bg {
     width: 400px;
     height: 90px;
