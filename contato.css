@@ -1,0 +1,83 @@
+.contato-bg {
+  background-image: linear-gradient(
+    to right,
+    #000000 6%,
+    #3c1a02 6% 9%,
+    #000000 9%
+  );
+  padding-top: 120px;
+  padding-bottom: 40px;
+}
+
+.contato-desc {
+  padding-left: 60px;
+}
+
+.contato-desc h2 {
+  margin-bottom: 40px;
+}
+
+.contato-lista {
+  padding-left: 80px;
+  margin-bottom: 120px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 120px;
+}
+
+.contato-desc-1 p:first-child {
+  margin-bottom: 60px;
+}
+
+.contato-desc-2 p:first-child {
+  margin-bottom: 60px;
+}
+
+.contato-desc-1 {
+  border-right: solid 4px #1d0d01;
+  padding-right: 60px;
+}
+
+.contato-desc-1 p,
+.contato-desc-2 p {
+  position: relative;
+}
+
+.contato-desc-1 p::before,
+.contato-desc-2 p::before {
+  content: "";
+  display: flex;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background-color: #fdcb0c;
+  position: absolute;
+  top: 25px;
+  left: -30px;
+}
+
+.contato-rodape {
+  padding-left: 40px;
+}
+
+@media (max-width: 1400px) {
+  .contato-desc-1 {
+    border-right: none;
+  }
+  .contato-lista {
+    gap: 60px;
+  }
+}
+
+@media (max-width: 1000px) {
+  .contato-bg {
+    padding-top: 60px;
+  }
+  .contato-desc h2 {
+    margin-bottom: 20px;
+  }
+  .contato-lista {
+    margin-bottom: 60px;
+    gap: 60px;
+  }
+}

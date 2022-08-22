@@ -105,6 +105,9 @@
   .cev-128 {
     font-size: 80px;
   }
+  .poppins-400-40 {
+    font-size: 32px;
+  }
 }
 
 @media (max-width: 600px) {
@@ -116,5 +119,11 @@
   }
   .poppins-400-20 {
     font-size: 12px;
+  }
+}
+
+@media (max-width: 590px) {
+  .poppins-400-40 {
+    font-size: 20px;
   }
 }
