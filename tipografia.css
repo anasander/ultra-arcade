@@ -108,6 +108,9 @@
 }
 
 @media (max-width: 600px) {
+  .poppins-500-40 {
+    font-size: 32px;
+  }
   .poppins-500-32 {
     font-size: 20px;
   }

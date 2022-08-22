@@ -27,7 +27,9 @@ li,
 p,
 h1,
 h2,
-h3 {
+h3,
+input,
+button {
   margin: 0px;
   padding: 0px;
 }

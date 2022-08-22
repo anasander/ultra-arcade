@@ -1,0 +1,80 @@
+.newsletter-bg {
+  background-color: #3c1a02;
+}
+
+.newsletter {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 80px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.newsletter-busca {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.newsletter-busca input {
+  box-sizing: border-box;
+  width: 400px;
+  height: 60px;
+  padding-left: 12px;
+  background-color: #fff1b9;
+  border: 4px solid #fdcb0c;
+  font-family: "Poppins";
+  font-weight: 400;
+  font-size: 28px;
+  color: #ad4d08;
+}
+
+.newsletter-busca input:focus {
+  outline: none;
+}
+
+.newsletter-busca button {
+  width: 200px;
+  height: 60px;
+  background: #fdcb0c;
+  border: none;
+  font-family: "Poppins";
+  font-size: 28px;
+  font-weight: 600;
+  color: #3c1a02;
+}
+
+.newsletter-busca button:hover {
+  cursor: pointer;
+}
+
+@media (max-width: 980px) {
+  .newsletter {
+    gap: 40px;
+  }
+}
+
+@media (max-width: 645px) {
+  .newsletter {
+    gap: 20px;
+  }
+  .newsletter-busca input {
+    width: 300px;
+    font-size: 24px;
+  }
+  .newsletter-busca button {
+    width: 150px;
+    font-size: 24px;
+  }
+}
+
+@media (max-width: 480px) {
+  .newsletter-busca input {
+    width: 280px;
+  }
+  .newsletter-busca button {
+    width: 130px;
+  }
+}
