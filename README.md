@@ -6,7 +6,7 @@
 
 <h2>Project Description</h2>
 <p>A mockup page for the brazilian e-sports Team Ultra Arcade using only HTML and CSS (CSS flexbox layout challenge).</p>
-<p>You can see the repository in action at: <a href='https://ultra-arcade.vercel.app/'>Ultra Arcade</a></p>
+<p>You can see the repository in action at: <a href='https://ultra-arcade.vercel.app/'>Ultra Arcade</a>.</p>
 </br>
 
 ![ultraarcade](https://user-images.githubusercontent.com/108422924/231242205-8f211cdf-7768-4af3-b48b-afc2c8c47689.png)
